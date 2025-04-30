@@ -6,7 +6,6 @@ import pickle
 import nltk
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize, sent_tokenize
-#
 
 app = FastAPI()
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
