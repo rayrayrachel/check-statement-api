@@ -19,7 +19,6 @@ MAX_LEN = 50
 with open('vocab.pkl', 'rb') as f:
     vocab = pickle.load(f)
 
-
 # Model
 class LSTMClassifier(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim):
