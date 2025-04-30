@@ -1,5 +1,6 @@
 fastapi[standard]
 uvicorn
 nltk
+numpy
 torch==2.7.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
