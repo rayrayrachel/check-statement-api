@@ -4,8 +4,7 @@ import torch
 import torch.nn as nn
 import pickle
 import nltk
-nltk.download()
-
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize, sent_tokenize
 
 app = FastAPI()
