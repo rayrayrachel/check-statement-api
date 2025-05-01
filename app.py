@@ -4,7 +4,8 @@ import torch
 import torch.nn as nn
 import pickle
 import nltk
-nltk.data.path.append('./nltk_data')
+nltk.download()
+
 from nltk.tokenize import word_tokenize, sent_tokenize
 
 app = FastAPI()
